@@ -13,7 +13,7 @@ var lossCount = 0;
 var guessCount = 0;
 
 var letters = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
-var words = ["enter", "pardon", "glass", "picture", "towel", "water", "knife", "novel", "flower", "lightbulb", "recipe", "candle", "package", "internet", "painting" ];
+var words = ["doorway", "shelf", "glass", "picture", "towel", "water", "knife", "novel", "flower", "lightbulb", "recipe", "candle", "package", "internet", "painting", "table", "television", "lamp", "switch", "books", "fan", "sofa", "carpet", "window" ];
 var word = words[Math.floor(Math.random()*words.length)];
 //randomly select word and set up blank divs
 function blanksGenerate(length){
@@ -88,6 +88,7 @@ document.onkeyup = function(event) {
                 }
             }
             blanks.innerText = holder;
+            
             
             if (currentProgress.length >= word.length){
                 //win
