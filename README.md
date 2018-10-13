@@ -1,5 +1,6 @@
 # Word-Guess-Game
-Play Hangman
+Play a simple version of Hangman:
+https://ski14hs.github.io/Word-Guess-Game/
 
 Length of the word is displayed by number of blanks.
 Game will ignore special controls buttons, and display letters correctly guessed.
